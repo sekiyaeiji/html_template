@@ -179,7 +179,7 @@
 
 - JavaScriptは原則として外部ファイル化する
 
-- JavaScriptファイルは&lt;/body&gt;直前の<!--JS--><!--/JS-->内に読み込む
+- JavaScriptファイルは</body>直前の<!--JS--><!--/JS-->内に読み込む
 
 - グローバル変数はサイト全体で共有されるべき最低限の項目のみ定義する
 
@@ -224,8 +224,32 @@ http://pngmini.com/
 http://imageoptim.com/
 
 
-##対象ブラウザ
+##動作環境
 
+###OS
+
+|OS|ver.|
+|:--|:--|
+|Windows|Vista以上|
+|Mac OS|0S X以上|
+
+###Windows
+
+|browser|ver.|
+|:--|:--|
+|Internet Explorer|8以上|
+|Chrome|最新ver.|
+|Firefox|最新ver.|
+|Opera|最新ver.|
+
+###Mac
+
+|browser|ver.|
+|:--|:--|
+|Chrome|最新ver.|
+|Firefox|最新ver.|
+|Safari|最新ver.|
+|Opera|最新ver.|
 
 　
 　
