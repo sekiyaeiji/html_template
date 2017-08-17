@@ -1,8 +1,16 @@
 # フロントエンド・コーディング・レギュレーション
 
-## HTML
+# template file
 
-###  HTML仕様
+- [PC html](https://github.com/sekiyaeiji/html_template/blob/master/guideline/pc.html)
+- [SP html](https://github.com/sekiyaeiji/html_template/blob/master/guideline/pc.html)
+
+
+
+
+# HTML
+
+## HTML仕様
 
 |項目|仕様|
 |:--|:--|
@@ -17,7 +25,7 @@
 
 ※1 他にTab、4スペース
 
-###  HTML実装方針
+## HTML実装方針
 
 - HTML5要素を積極的に利用する
 - 空要素を除く終了タグは省略せず必ず記述する
@@ -28,7 +36,7 @@
 - img要素にはalt属性を付与し簡潔な文字列か空値を設定する
 
 
-### 文書基本構造 HTML5
+## 文書基本構造 HTML5
 
 ```
 <!DOCTYPE html>
@@ -40,9 +48,9 @@
 </html>
 ```
 
-### head要素
+## head要素
 
-#### PC
+### PC
 
 ```
 <head>
@@ -57,7 +65,7 @@
 </head>
 ```
 
-#### SP
+### SP
 
 ```
 <head>
@@ -82,7 +90,7 @@
 </head>
 ```
 
-### body要素
+## body要素
 
 ```
 <body>
@@ -94,9 +102,9 @@
 ```
 　
 
-## 命名規則
+# 命名規則
 
-### ファイル命名規則
+## ファイル命名規則
 
 |種別|規則|
 |:--|:--|
@@ -105,7 +113,7 @@
 |画像|`[image prefix]-[機能・用途]-[category（省略可）]-[variation（省略可）].[拡張子]`  【例】`logo-header-small.png`|
 
 
-### image prefix（画像接頭辞）
+## image prefix（画像接頭辞）
 
 |項目|接頭辞|
 |:--|:--|
@@ -120,7 +128,7 @@
 |バナー|banner-|
 
 
-## ディレクトリ構成
+# ディレクトリ構成
 
 |項目|ディレクトリ|
 |:--|:--|
@@ -136,15 +144,15 @@
 |HTML|/[category]/|
 
 
-## CSS
+# CSS
 
-### CSSディレクトリ構成
+## CSSディレクトリ構成
 
 |項目|ディレクトリ|
 |:--|:--|
 |その他|/stat/css/|
 
-### CSS実装方針
+## CSS実装方針
 
 - CSSは原則として外部ファイル化する
 - CSSファイルはhead要素にlink用によって読み込む
@@ -155,15 +163,15 @@
 - CSSコードには適切なコメントを付記し各部の役割を明確にする
 　
 
-## JavaScript
+# JavaScript
 
-### JavaScriptディレクトリ構成
+## JavaScriptディレクトリ構成
 
 |項目|ディレクトリ|
 |:--|:--|
 |その他|/stat/js/|
 
-### JavaScript実装方針
+## JavaScript実装方針
 
 - JavaScriptは原則として外部ファイル化する
 - JavaScriptファイルは&lt;/body&gt;直前に読み込む
@@ -171,9 +179,9 @@
 - JavaScriptコードには適切なコメントを付記し各部の役割を明確にする
 　
 
-## 画像
+# 画像
 
-### 画像ディレクトリ構成
+## 画像ディレクトリ構成
 
 |項目|ディレクトリ|
 |:--|:--|
@@ -182,7 +190,7 @@
 |コンテンツ固有ファイル|/stat/img/[category]/|
 |その他|/stat/img/|
 
-### 画像種別
+## 画像種別
 
 |用途|画像タイプ|拡張子|
 |:--|:--|:--|
@@ -190,29 +198,29 @@
 |GIFアニメーション|GIF|.gif|
 |以上の用途に該当しないすべて|PNG24|.png|
 
-### 画像最適化
+## 画像最適化
 
 画像ファイルには最適化ツールを適用する
 
-> #### imagemin
+> ### imagemin
 > [Github - imagemin](https://github.com/imagemin/imagemin)  
 > [npm - imagemin](https://www.npmjs.com/package/imagemin)
 
 
-## 動作環境
+# 動作環境
 
-### PC
+## PC
 
-#### OS
+### OS
 
 |OS|ver.|
 |:--|:--|
 |Windows|7以上|
 |Mac OS|0S X以上|
 
-#### browser
+### browser
 
-##### Windows
+#### Windows
 
 |browser|version|
 |:--|:--|
@@ -222,7 +230,7 @@
 |Firefox|最新|
 |Opera|最新|
 
-##### Mac
+#### Mac
 
 |browser|version|
 |:--|:--|
@@ -232,25 +240,25 @@
 |Opera|最新|
 
 
-### SP
+## SP
 
-#### OS
+### OS
 
 |OS|ver.|
 |:--|:--|
 |iOS|9.x以上|
 |Android|4.4以上|
 
-#### browser
+### browser
 
-##### iOS
+#### iOS
 
 |browser|ver.|
 |:--|:--|
 |Mobile Safari|最新|
 |Chrome|最新|
 
-##### Android
+#### Android
 
 |browser|ver.|
 |:--|:--|
