@@ -1,0 +1,25 @@
+{
+  "name": "html_template",
+  "version": "1.0.0",
+  "description": "html_template #1",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch --progress"
+  },
+  "repository": {},
+  "author": "",
+  "license": "ISC",
+  "bugs": {}
+}

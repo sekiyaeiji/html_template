@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* line 4, /_git/github-sekiyaeiji/html_template/src/scss/common/base/reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, a, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+
+/* line 3, /_git/github-sekiyaeiji/html_template/src/scss/common/base/selector.scss */
+body {
+  position: relative;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", Helvetica, Arial, sans-serif;
+  word-break: break-all;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 9, /_git/github-sekiyaeiji/html_template/src/scss/common/base/selector.scss */
+html {
+  overflow-y: scroll; }
+
+/* line 12, /_git/github-sekiyaeiji/html_template/src/scss/common/base/selector.scss */
+a {
+  text-decoration: none; }
+
+/* line 15, /_git/github-sekiyaeiji/html_template/src/scss/common/base/selector.scss */
+blockquote,
+q {
+  quotes: none; }
+
+/* line 19, /_git/github-sekiyaeiji/html_template/src/scss/common/base/selector.scss */
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: '';
+  content: none; }
+
+/* line 26, /_git/github-sekiyaeiji/html_template/src/scss/common/base/selector.scss */
+input,
+textarea {
+  margin: 0;
+  padding: 0; }
+
+/* line 31, /_git/github-sekiyaeiji/html_template/src/scss/common/base/selector.scss */
+input,
+select {
+  vertical-align: middle; }
+
+/* line 35, /_git/github-sekiyaeiji/html_template/src/scss/common/base/selector.scss */
+ol,
+ul {
+  list-style: none; }
+
+/* line 39, /_git/github-sekiyaeiji/html_template/src/scss/common/base/selector.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 43, /_git/github-sekiyaeiji/html_template/src/scss/common/base/selector.scss */
+caption,
+th {
+  text-align: left; }
+
+/* line 47, /_git/github-sekiyaeiji/html_template/src/scss/common/base/selector.scss */
+header {
+  display: block; }
+
+/* line 50, /_git/github-sekiyaeiji/html_template/src/scss/common/base/selector.scss */
+img {
+  vertical-align: bottom; }
+
+/* line 4, /_git/github-sekiyaeiji/html_template/src/scss/common/base/helper.scss */
+.clearfix {
+  *zoom: 1; }
+  /* line 5, /_git/github-sekiyaeiji/html_template/src/scss/common/base/helper.scss */
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table; }
+  /* line 10, /_git/github-sekiyaeiji/html_template/src/scss/common/base/helper.scss */
+  .clearfix:after {
+    clear: both; }
+
+/*# sourceMappingURL=import.css.map */
