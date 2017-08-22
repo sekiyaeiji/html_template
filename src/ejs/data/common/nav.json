@@ -1,0 +1,49 @@
+{
+  "category": [
+    {
+      "nav": "nav00",
+      "label": "TOP",
+      "link": "/"
+    },
+    {
+      "nav": "nav01",
+      "label": "ナビ１ナビ１",
+      "link": "/category_a/"
+    },
+    {
+      "nav": "nav02",
+      "label": "ナビ２ナビ２ナビ２",
+      "link": "/category_b/"
+    },
+    {
+      "nav": "nav03",
+      "label": "ナビ３",
+      "link": "/category_c/"
+    },
+    {
+      "nav": "nav04",
+      "label": "ナビ４ナビ４ナビ４",
+      "link": "/category_d/"
+    },
+    {
+      "nav": "nav05",
+      "label": "ナビ５",
+      "link": "/category_e/"
+    },
+    {
+      "nav": "nav06",
+      "label": "ナビ６ナビ６",
+      "link": "/category_f/"
+    },
+    {
+      "nav": "nav07",
+      "label": "ナビ７",
+      "link": "/category_g/"
+    },
+    {
+      "nav": "nav08",
+      "label": "ナビ８ナビ８",
+      "link": "/category_h/"
+    }
+  ]
+}
