@@ -1,0 +1,17 @@
+{
+  "dir": {
+    "src": "src/",
+    "dist": "dist/",
+    "tmp": "tmp/",
+    "html_src": "src/ejs/",
+    "css_src": "src/css/",
+    "styleguide_src": "src/styleguide/",
+    "js_src": "src/js/",
+    "img_src": "src/img/",
+    "sprite_src": "src/sprite/"
+  },
+  "stat": {
+    "local": "./",
+    "test_x": "http://hoge/"
+  }
+}
